@@ -1,0 +1,46 @@
+header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+.container-card {
+    background: #fff;
+    display: block;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 2px 2px 0 0;
+    color: #666F73;
+    /*just for the presentation */ 
+}
+
+.card > .content{
+  padding: 10px;
+  font-size: 13px;
+}
+
+.content-container{
+  width: 100%;
+  max-width: 1124px;
+  margin: 0 auto;
+}
+
+.center{
+  width:15%;
+  top:100px;
+  
+  position:absolute;
+  
+}
+DIV.ctn {
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle 
+}
